@@ -88,9 +88,9 @@ section h3 {
 }
 
 .activity-card .participants ul {
-  list-style: disc inside;
+  list-style: none;
   margin: 0;
-  padding-left: 14px;
+  padding-left: 0;
 }
 
 .activity-card .participants li {
@@ -98,6 +98,25 @@ section h3 {
   font-size: 14px;
   color: #444;
   border-bottom: 1px dashed #f0f0f0;
+}
+
+.activity-card .participants li span {
+  display: inline-block;
+}
+
+.delete-btn {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 8px;
+  padding: 2px 6px;
+  border-radius: 3px;
+}
+
+.delete-btn:hover {
+  background: rgba(198, 40, 40, 0.08);
 }
 
 .activity-card .participants li:last-child {
